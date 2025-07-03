@@ -6,7 +6,7 @@ Servo myservo2; // Continuous rotation servo
 void setup() {
   Serial.begin(9600);
 
-  // Attach servos to respective pins
+  // Attached pin 11 to the position servo and pin 9 to the rotation servo
   myservo1.attach(11);
   myservo2.attach(9);
 
