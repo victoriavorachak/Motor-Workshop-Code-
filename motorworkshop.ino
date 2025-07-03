@@ -8,7 +8,7 @@ void setup() {
 
   // Attached pin 11 to the position servo and pin 9 to the rotation servo
   myservo1.attach(11);
-  myservo2.attach(9);
+  myservo2.attach(8);
 
   Serial.println("Enter 'P' followed by angle (0-180) for position servo");
   Serial.println("Enter 'R' followed by speed (-100 to 100) for rotation servo");
