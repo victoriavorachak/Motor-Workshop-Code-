@@ -32,9 +32,6 @@ void loop() {
     }
   }
 
-  delay(100); // Prevent flooding
-}
-
 // === Part 1(a): Position Servo ===
 void posServo(int angle) {
   if (angle >= 0 && angle <= 180) {
