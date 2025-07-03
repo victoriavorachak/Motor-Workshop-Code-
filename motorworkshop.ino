@@ -17,7 +17,7 @@ void setup() {
 void loop() {
   if (Serial.available()) {
     String input = Serial.readStringUntil('\n');
-    input.trim(); // Remove whitespace/newline
+    input.trim(); 
 
     // Position Servo Input
     if (input.startsWith("P") || input.startsWith("p")) {
